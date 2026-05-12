@@ -1,37 +1,30 @@
-# SkyCast Weather App
+# SkyCast ☁️
 
-Modern responsive weather application built using React, TypeScript and Vite.
+SkyCast is a modern weather forecasting web application built using React and TypeScript.
 
 ## Features
 
 - Real-time weather updates
-- 5-day weather forecast
+- 7-day forecast
 - Dark mode support
-- Responsive design
-- City search suggestions
-- Dynamic weather icons
+- Responsive modern UI
+- Search locations worldwide
+- Smooth glassmorphism design
 
 ## Tech Stack
 
 - React
 - TypeScript
 - Vite
-- Context API
+- CSS3
+
+## Screenshots
+
+(Add screenshots here later)
 
 ## Installation
 
+Clone the repository:
+
 ```bash
-npm install
-npm run dev
-```
-
-## Future Improvements
-
-- Current location weather
-- Air quality index
-- Hourly forecast
-- Animated weather backgrounds
-
-## Author- 
-
-Roshan
+git clone https://github.com/meow-1010/weather-app-roshan.git
