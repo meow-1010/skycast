@@ -27,4 +27,4 @@ SkyCast is a modern weather forecasting web application built using React and Ty
 Clone the repository:
 
 ```bash
-git clone https://github.com/meow-1010/weather-app-roshan.git
+git clone https://github.com/meow-1010/skycast.git
