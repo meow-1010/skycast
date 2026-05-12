@@ -1,47 +1,37 @@
-# React Weather App
+# SkyCast Weather App
 
-<img src="https://user-images.githubusercontent.com/25284536/90274607-2535a000-de76-11ea-9d21-ab8c3e68b3a9.png" width="400"> <img src="https://user-images.githubusercontent.com/25284536/90274626-29fa5400-de76-11ea-97a7-c6b67ec2f66a.png" width="400">
-
-Weather App built with React.
-[Live Demo](https://esnz-reactweather.netlify.app/)
-
-## Tech Stack
-
-**React, TypeScript, Vite**
+Modern responsive weather application built using React, TypeScript and Vite.
 
 ## Features
 
-- **Weather forecast for any city or place**
-- **Extended 7 days forecast**
-- **Find user location weather by utilizing GeolocationAPI**
-- **One-click Celcius to Fahrenheit conversion and vice versa**
-- **Dark Mode**
+- Real-time weather updates
+- 5-day weather forecast
+- Dark mode support
+- Responsive design
+- City search suggestions
+- Dynamic weather icons
 
-## Getting Started
+## Tech Stack
 
-First you need an API key from OpenWeatherMap, you can get one by creating an account on their website.
-After you got your API key, create a **.env** file at root directory of project, copy the line below to the file and replace YOUR_KEY with your OpenWeatherMap API Key.
+- React
+- TypeScript
+- Vite
+- Context API
 
-```
-VITE_WEATHER_API_KEY=YOUR_KEY
-```
-
-Finally clone this repository, install dependencies and run the local server
-
-```bash
-git clone https://github.com/esnz/react-weather-app.git
-```
+## Installation
 
 ```bash
-cd react-weather-app
 npm install
 npm run dev
 ```
 
-## Credits
+## Future Improvements
 
-[OpenWeatherMap](https://openweathermap.org/ 'OpenWeatherMap') (Weather data API)
+- Current location weather
+- Air quality index
+- Hourly forecast
+- Animated weather backgrounds
 
-[Open-Meteo Geocoding](https://open-meteo.com/en/docs/geocoding-api 'Open-Meteo Geocoding') (Place suggestion API)
+## Author
 
-[Icons8.com](https://www.icons8.com 'Icons8.com') (Weather icons)
+Roshan
