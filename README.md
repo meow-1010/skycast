@@ -8,7 +8,7 @@ It provides live weather updates, temperature forecasts, location search, dark m
 
 ## 🚀 Live Demo
 
-https://your-vercel-link.vercel.app
+skycast-two-psi.vercel.app
 
 ---
 
