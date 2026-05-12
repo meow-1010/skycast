@@ -32,6 +32,6 @@ npm run dev
 - Hourly forecast
 - Animated weather backgrounds
 
-## Author
+## Author- 
 
 Roshan
