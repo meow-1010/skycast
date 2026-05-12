@@ -4,7 +4,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="rw-footer">
       <p>
-        Developed By <a href="https://www.ehsanazizi.me">Ehsan Azizi</a>
+        Built with React + TypeScript by Roshan
       </p>
     </footer>
   );
