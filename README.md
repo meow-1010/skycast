@@ -54,12 +54,3 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/meow-1010/skycast.git
-
----
-
-## Roshan
-
-GitHub:
-https://github.com/meow-1010
-
----
