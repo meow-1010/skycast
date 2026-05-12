@@ -1,4 +1,4 @@
-onst baseUrl = 'https://api.openweathermap.org/data/2.5';
+const baseUrl = 'https://api.openweathermap.org/data/2.5';
 const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
 
 export const fetchWeatherData = async (
@@ -11,7 +11,7 @@ export const fetchWeatherData = async (
   }
 
   const response = await fetch(url);
-  return await recsponse.json();
+  return await response.json();
 };
 
 export const fetchExtendedForecastData = async (

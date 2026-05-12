@@ -84,6 +84,7 @@ if (stored === null) {
 }
 
 return stored === 'true';
+};
 
 const initialState: AppState = {
   tempUnit: TempUnit.CELCIUS,
