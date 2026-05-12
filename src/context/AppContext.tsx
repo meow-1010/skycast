@@ -30,10 +30,10 @@ type WeatherApiResponse = [
   },
   {
     list: Array<{
-      temp: {
-        max: number;
-        min: number;
-      };
+  main: {
+    temp_max: number;
+    temp_min: number;
+  };
       weather: Array<{
         id: number;
         main: string;
@@ -77,8 +77,13 @@ const initialWeatherData: WeatherData = {
 };
 
 const getInitialDarkMode = () => {
-  return window.localStorage.getItem('darkMode') === 'true';
-};
+  const stored = window.localStorage.getItem('darkMode');
+
+if (stored === null) {
+  return true;
+}
+
+return stored === 'true';
 
 const initialState: AppState = {
   tempUnit: TempUnit.CELCIUS,
@@ -113,17 +118,17 @@ const transformWeatherData = (
   };
 
   const next7Days = getNextSevenDays();
-  const forecast = res[1].list.map((item, index) => ({
-    day: next7Days[index],
-    temp: {
-      temp_max: kelvinToCelcius(item.temp.max),
-      temp_min: kelvinToCelcius(item.temp.min),
-    },
-    weather: {
-      id: item.weather[0].id,
-      main: item.weather[0].main,
-    },
-  }));
+  const forecast = res[1].list.slice(0, 7).map((item, index) => ({
+  day: next7Days[index],
+  temp: {
+    temp_max: Math.round(item.main.temp_max),
+    temp_min: Math.round(item.main.temp_min),
+  },
+  weather: {
+    id: item.weather[0].id,
+    main: item.weather[0].main,
+  },
+}));
 
   return {
     weather,

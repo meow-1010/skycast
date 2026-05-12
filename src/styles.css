@@ -45,13 +45,28 @@ body {
   background-attachment: fixed;
 }
 
-body[data-theme='dark'] {
+body[data-theme='light'] {
+  --app-title-color: #0f172a;
+  --panel-bg-color: rgba(255, 255, 255, 0.8);
+  --panel-title-color: #1e293b;
+  --forecast-panel-bg-color: rgba(255, 255, 255, 0.7);
+  --search-input-color: #0f172a;
+  --search-input-placeholder-color: rgba(15, 23, 42, 0.6);
+  --temperature-switch-bg-color: #cbd5e1;
+  --temperature-switch-slider-color: #ffffff;
+  --temperature-switch-text-color: #0f172a;
+  --search-suggestion-bg-color: #ffffff;
+  --search-suggestion-hover-bg-color: rgba(0, 0, 0, 0.05);
+  --search-suggestion-line-color: rgba(0, 0, 0, 0.08);
+  --small-icon-color: #334155;
+  --small-icon-text-color: #1e293b;
+
   background:
     linear-gradient(
       135deg,
-      #020617,
-      #0f172a,
-      #1e293b
+      #dbeafe,
+      #e0f2fe,
+      #f8fafc
     );
 
   background-attachment: fixed;
